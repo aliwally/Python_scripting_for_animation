@@ -1,0 +1,1 @@
+""" Creates the structure of the project """

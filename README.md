@@ -10,6 +10,30 @@ So far, when executed in Maya, the script `script_to_use_in_maya.py` prompts the
 - Automatically generates folders for assets (characters, props, sets), shots, and publish
 - Modular code: project management, asset management, versioning, Maya integration, and UI
 
+## What the Create Button Does
+
+When you click the **Create** button in the Maya UI, the following project folder structure is automatically generated:
+
+```
+MyProject/
+├── assets/
+│   ├── characters/
+│   ├── props/
+│   └── sets/
+├── publish/
+└── shots/
+```
+
+This helps you quickly set up a standard animation pipeline directory layout for your new project.
+
+## Example Interface
+
+Below are screenshots of the Maya UI for creating a new project structure:
+
+![Maya Create Project Dialog](images/maya_create_project.png)
+
+![Full Maya Screen](images/full_maya_screen.png)
+
 ## Project Structure
 
 ```
